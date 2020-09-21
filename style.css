@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.live {
+  width: 50px;
+  animation: 0.65s linear infinite alternate;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+
+.logo {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns {
+  background-color: #fff;
+}
+
+.column-1,
+.column-2 {
+  font-size: 32px;
+  margin: 10px;
+  padding: 15px;
+  background-color: #ffdf4a;
+}
+
+.column-3 {
+  font-size: 30px;
+  display: flex;
+  margin: 10px;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  padding: 10px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
